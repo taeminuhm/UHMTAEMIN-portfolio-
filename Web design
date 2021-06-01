@@ -127,18 +127,18 @@
 <body>
 <header>
     <div id='logo'>
-        <img src='img/logo.png'>
+        <img src='img/logo1.png'>
     </div>
     <nav id='menus'>
         <div id='top_metu'>
-            로그인 ㅣ 회원가입 ㅣ 공지사항
+            로그인 | 회원가입 | 공지사항
         </div>
         <ul id='main_menu'>
-            <li>사진이론</li>
-            <li>사진구도</li>
-            <li>사진작가</li>
-            <li>갤러리</li>
-            <li>커뮤니티</li>
+            <li>기계 학습</li>
+            <li>데이터마이닝</li>
+            <li>딥러닝</li>
+            <li>머신러닝</li>
+            <li>알고리즘</li>
         </ul>
     </nav>
 </header>
@@ -147,30 +147,30 @@
 </section>
 <section id ='contents'>
         <nav id='sub_menu'>
-            <h3>사진이론</h3>
+            <h3>기계 학습</h3>
             <ul>
-                <li>카메라 동작 원리</li>
-                <li>무조건 찍어보자!</li>
-                <li>피사체의 배경</li>
-                <li>조리개와 심도</li>
-                <li>카메라 촬영모드</li>
+                <li>지도학습</li>
+                <li>비지도학습</li>
+                <li>강화학습</li>
+                <li>파라미터</li>
+                <li>적용사례</li>
             </ul>
         </nav>
         <div id='main_contents'>
-            <h3>카메라 동작 원리</h3>
-            <p>DSLR 카메라에서 DSLR은 "Digital Single Lens Reflex"의 약어로써 우리말로는 디지털 일안반사식
-             카메라를 의미합니다. DSLR은 디지털 카메라로써 카메라 내부에 들어온 빛이 상단의 펜타프리즘을 통하여 뷰
-             파인더에 맺히게 되어 셔터를 누르기 전에 뷰 파인더를 통하여 피사체를 확인할 수 있게 됩니다.</p>
+            <h3>지도학습</h3>
+            <p>지도 학습은 훈련데이터로부터 하나의 함수를 유추해내기 위한 기계 학습의 한 방법이다. 훈련 데이터는
+                일반적으로 입력 객체에 대한 속성을 벡터 형태로 포함하고 있으며  각각의 벡터에 대해 원하는 결과가
+                무엇인지 표시되어 있다. 이렇게 유추된 함수 중 연속적인 값을 출력하는 것을 회귀분석이라 하고 주어진
+                 입력 벡터가 어떤 종류의 값인지 표식하는 것을 분류라 한다. 지도 학습기가 하는 작업은 훈련 데이터로부터
+                 주어진 데이터에 대해 예측하고자 하는 값을 올바로 추측해내는 것이다.</p>
                  <div id='figure'>
-                     <img src='img/dsrl.png'>
+                 <img src='img3/Supervised Learning.png'>
                  </div>
-                 <p> [그림 1]은 DSLR 카메라에서 셔터를 누르기 전의 상태를 보여주는데 렌즈를 통해 들어오는 빛은 
-                 카메라 내부에서 다음과 같은 과정을 거치게 됩니다.</p>
+                 <p> [그림 1]은 지도 학습이 유용하게 사용되는 두 가지 주요 영역인 분류문제와 회귀 문제입니다.</p>
                  <ul>
-                        <li>1. 빛이 카메라 렌즈를 통과합니다.</li>
-                        <li>2. 빛이 반사 거울에 반사되어 위쪽으로 향합니다.</li>
-                        <li>3. 빛이 펜타프리즘 거울에 반사되어 뷰파인더로 향합니다.</li>
-                        <li>4. 들어온 빛에 의해 뷰파인터들 통하여 피사체를 볼 수 있습니다.</li>
+                        <li>1. 훈련 집합</li>
+                        <li>2. 검증 집합</li>
+                        <li>3. 테스트 집합</li>
                  </ul>
         </div>
 </section>
@@ -178,12 +178,12 @@
 <footer>
     <div id='footer_box'>
         <div id='footer_logo'>
-            <img src='img/footer_logo.png'>
+            <img src='img/footer_logo1.png'>
         </div>
         <ul id='address'>
-            <li>서울시 강남구 삼성동 1234 우:123-1234</li>
+            <li>서울시 관악구 삼성동 1234 우:123-1234</li>
             <li>TEL:031-123-1234 Email: michoins3@naver.com</li>
-            <li>COPYRIGHT (C) 루바토 ALL RIGHTS RESERVED</li>
+            <li>COPYRIGHT (C) 인텔리시스 ALL RIGHTS RESERVED</li>
         </ul>
     </div>
 </footer>
